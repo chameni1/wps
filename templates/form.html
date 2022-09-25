@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="static/images/favicon.ico" />
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Custom styles for this template -->
+  <link href="/static/styles/floating-labels.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+
+<body>
+
+  <form class="form-searchdata" id="form">
+    <div class="text-center mb-4">
+      <img class="mb-4" src="/static/images/wordpress.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">WPVULSCAN</h1>
+      <p>Scan Wordpress Vulnerabilities </p>
+    </div>
+
+    <div class="form-label-group">
+      <input type="text" id="url" name="url" class="form-control" placeholder="URL" required autofocus>
+      <label for="url">URL</label>
+    </div>
+    <button id="submitBtn" class="btn btn-lg btn-primary btn-block" type="submit"  onclick="myFunction()"s>Submit</button>
+    <div id="loading" class="text-center invisible"><img src="static/images/Rolling-40px.svg"></div>
+
+  <p id="demo"></p>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("url").value;
+      document.getElementById("demo").innerHTML = x;
+      
+
+    }
+  </script>
+ 
+    <py-script>
+    </py-script>
+
+  </form> 
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+    "cms_id": "wp",
+    "cms_name": "WordPress",
+    "cms_url": "https://wordpress.org",
+    "detection_param": "header",
+    "last_scanned": "2022-04-08 00:22:26.120237",
+    "url": "http://localhost:8080/wordpress/",
+    "wp_license": "http://localhost:8080/wordpress//license.txt",
+    "wp_plugins": "woocommerce Version 6.9.0,elementor Version 5.14.0,wpforms-lite Version 1.7.3,",
+    "wp_readme_file": "http://localhost:8080/wordpress//readme.html",
+    "wp_themes": "astra Version 3.7.9,",
+    "wp_users": "admin,",
+    "wp_version": "5.9.3"
+}
